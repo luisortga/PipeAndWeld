@@ -2,10 +2,10 @@
 FROM python:alpine
 
 # Establecemos el directorio de trabajo
-WORKDIR /app
+WORKDIR /src/
 
 # Copiamos el script de Python al directorio de trabajo
-COPY script.py .
+COPY main.py .
 
 # Ejecutamos el script de Python
-CMD ["python", "script.py"]
+CMD ["python", "main.py"]
