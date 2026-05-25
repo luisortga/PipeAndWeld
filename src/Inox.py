@@ -3,5 +3,7 @@
 
 print('Inox')
 
-pass
+def comparision() -> None:
+    pass
+
 # pendiente en implementar
