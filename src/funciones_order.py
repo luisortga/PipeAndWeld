@@ -17,4 +17,9 @@ def sum_two(firts_v: int, second_v: int) -> int: return firts_v+second_v
 
 def multiply(firts_v: float, second_v: float) -> float: return firts_v**second_v
 
+# void
+def firt_info() -> None: print(f'El resultado de la lambda es {sum_two_value(10, 2)} y de la funcion de una sola linea {sum_two(12,16)}')
+
 print(sum_two(12, 16))
+firt_info()
+print(multiply(2, 8))
