@@ -9,3 +9,5 @@ COPY main.py .
 
 # Ejecutamos el script de Python
 CMD ["python", "main.py"]
+
+# commentary
