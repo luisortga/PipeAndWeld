@@ -1,3 +1,0 @@
-agregado desde BASH
-agregando segunda linea con >>
-fin
