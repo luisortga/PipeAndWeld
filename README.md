@@ -13,3 +13,4 @@
 > ### Control de Calidad e InspecciónDebido a la peligrosidad de los hidrocarburos, el control de calidad no es opcional:Ensayos No Destructivos (END): Todas las soldaduras pasan por inspección visual. Dependiendo del riesgo de la línea, se realizan radiografías industriales (rayos X), ultrasonido (UT), líquidos penetrantes o partículas magnéticas para descartar porosidades, grietas o falta de fusión.
 
 ### WPS/Welding/Support/Inox/ and More in this repository.
+### Welder and tubers
