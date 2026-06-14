@@ -1,4 +1,4 @@
-# Primer repositorio en GITHUB, sobre un proyecto de tubería y soldadura escrito en python.
+# Primer repositorio en GitHub, sobre un proyecto de tubería y soldadura escrito en python.
 
 
 ### Description
