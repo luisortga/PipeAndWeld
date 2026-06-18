@@ -6,3 +6,5 @@ time.sleep(12)
 iteration: tuple[int, int] = (0, 24)
 
 for i in iteration: print(f'salida desde una tuple')
+
+new_tuple: tuple[int, int] = (12, 16)
