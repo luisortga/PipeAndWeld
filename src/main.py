@@ -1,5 +1,5 @@
-import re
-import nmap
+# import re
+# import nmap
 
 # Tuberia y soldadura
 # Pipe and weld
