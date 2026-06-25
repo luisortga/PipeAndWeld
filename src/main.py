@@ -26,9 +26,9 @@ class advancelbow:
             return advance
     
 
-example = advancelbow.elbow90(milimeter=203.2,inch=8)
+example = advancelbow()
+example.elbow90(milimeter=203.2,inch=8)
 print(example)
 print("Primer cambio en git")
 
-
-    
+# otro comentari pare git
