@@ -4,7 +4,7 @@ import math
 def __init__():
     pass
 
-def large_pipe(text):
+def large_pipe(text: str):
     # Encontrar el largo de la tubería
     ptt = r"\d\.\d"
     pipe = re.search(ptt, text)
@@ -12,12 +12,12 @@ def large_pipe(text):
     large = float(large)
     return large
 
-def tan(grados):
+def tan(grados: float):
     new_grade: float = grados/2
     tangente: float = math.tan(math.radians(new_grade))
     return tangente
 
-def advanced_elbow(inch, tangente_30, tangente_60):
+def advanced_elbow(inch: float, tangente_30: float, tangente_60: float):
     """
     Docstring  funcion
     @author: luis
