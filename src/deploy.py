@@ -2,6 +2,8 @@
 # remember 12_000_000
 # Generator
 
+import time
+
 """
     Generadores
 """
@@ -10,6 +12,7 @@ gen_cuadrador = (x**2 for x in range(8))
 print(next(gen_cuadrador))
 
 for x in gen_cuadrador:
+    time.sleep(4)
     print(x)
 
 def contar():
