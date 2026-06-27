@@ -14,3 +14,14 @@ def check_api(api: str):
         print(f'Error: {api} esta caido.')
         
 
+if __name__ == '__main__':
+    start = time.time()
+    
+    apis = [
+        "http://management.azure.com",
+        "https://api.github.com",
+        "https://api.openai.com",
+        "https://outlook.office.com",
+        "https://api.spotify.com",
+        "http://graph.microsoft.com",
+    ]
