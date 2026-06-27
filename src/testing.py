@@ -5,7 +5,7 @@ import requests
 def check_api(api: str):
     time.sleep(2)
     try:
-        response = requests.get(api)
+        response = requests.get(api, tiemeout=5)
         if response.status_code == 200:
             print(f'Success: {api} esta funcionando perfectamente')
         else:
@@ -25,3 +25,10 @@ if __name__ == '__main__':
         "https://api.spotify.com",
         "http://graph.microsoft.com",
     ]
+    
+    for api in apis:
+        check_api(api)
+    
+    end = time.time()
+    
+    print(f"Tiempo total de ejecución: {end - start:.4f} segundos")
