@@ -8,7 +8,7 @@ def large_pipe(text: str):
     # Encontrar el largo de la tubería
     ptt = r"\d\.\d"
     pipe = re.search(ptt, text)
-    large = pipe.group()
+    large = pipe.group() # type: ignore
     large = float(large)
     return large
 
@@ -114,3 +114,5 @@ if __name__ == "__main__":
 
     peso_d: float = peso(od, t)
     print(f"El peso es: {peso_d} por kg/m y el peso total es: {peso_d * large} kg/m")
+    
+    # public static void main
