@@ -23,6 +23,10 @@ inox = {
 
 class Meta:
     
+    """
+        Uso de datos en diccionarios
+    """
+    
     def __init__(self) -> None:
         pass
     
