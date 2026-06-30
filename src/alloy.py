@@ -15,5 +15,6 @@ incolloy = {
 }
 
 inox = {
-    
+    'rust': 16,
+    'ruby': 18
 }
