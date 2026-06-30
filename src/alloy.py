@@ -58,6 +58,10 @@ class Meta:
     
 class Data:
     
+    """
+        Meta datos en exponencial
+    """
+    
     def __init__(self,) -> None:
         pass
     
